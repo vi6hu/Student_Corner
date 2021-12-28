@@ -1,0 +1,19 @@
+{
+  "name": "boom",
+  "version": "1.0.0",
+  "description": "Trying to connect to DataBase with user Login and Signup",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/app.js -e js,hbs"
+  },
+  "author": "Vibhu",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "express": "^4.17.1",
+    "hbs": "^4.2.0",
+    "mongoose": "^6.0.13",
+    "socket.io": "^4.4.0"
+  }
+}

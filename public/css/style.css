@@ -1,0 +1,370 @@
+body {
+    font-family: "Montserrat";
+    text-align: center;
+}
+
+
+
+/* First Section  */
+
+/* Giving Padding to the Navbar and Carousel */
+/* .container-fluid{
+    padding: 3% 10% 7%;
+} */
+.beforeLogin{
+    padding: 3% 10% 7%;
+}
+
+/* Giving the Red color to the First section  */
+#titleHome{
+    background-color: #d82843;
+}
+
+/* Styling Student Corner Name */
+.navbar-brand{
+    font-family: Ubuntu;
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+
+/* Gap between Login Signup and Contact Us */
+.nav-item{
+    margin: 0px 10px;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+/* To give Hovering Effects to the Navbar Links (Login Signup and Contact Us)  */
+/* Common across all Pages  */
+a.links:hover{
+    color: #fff !important;
+    font-size: 1.3rem;
+}
+
+
+
+/* Intro Carousel  */
+.home_carousel{
+    /* background: #888888; */
+    /* background: #d82843; */
+    height: 400px;
+}
+
+/* Reducing the gap of Next and Previous button of Intro Carousel  */
+.carousel_button{
+    width: 2%;
+}
+
+/* First Image(Stressed Student) in Intro Carousel  */
+.title-image1{
+    width: 60%;
+    margin-top: 120px;
+}
+
+/* Second Image(Student with an Idea) in Intro Carousel  */
+.title-image2{
+    width: 60%;
+    margin-top: 95px;
+}
+
+/* Padding and Margin for the Text in Intro Carousel  */
+.title-text{
+    padding: 25px 100px;
+    margin-top: 180px;
+    color: white;
+}
+
+
+
+/* Second Section  */
+
+/* To create Gap between different Features  */
+.Feature{
+    margin: 45px 0;
+}
+
+/* To Bring the Features text in center in y-axis or to the center of corresponding Feature image  */
+.title-text2{
+    margin-top: 90px;
+}
+
+/* To set the size of Feature Image 2( ChatImage)  */
+.title-image4{
+    width: 60%;
+}
+
+/* To set the size of Feature Image 3( ProgressImage)  */
+.title-image5{
+    width: 95%;
+}
+
+
+/* Footer Styling  */
+
+#footerbeforeLogin{
+    background-color: #d82843;
+    /* background-color: #b63a4d; */
+    /* Dark Redish  */
+    /* background-color: #501B1D; */
+}
+
+.footerText{
+    color: white;
+}
+
+.footerSignup{
+    background-color: #007bff;
+}
+
+
+
+
+
+/* Login Page  */
+
+/* To give the Reddish color to Navbar and Whole Section  */
+#titleLogin{
+    background-color: #d82843;
+    height: 750px;
+}
+
+#titleLogin .container-fluid{
+    padding: 3% 10% 6%;
+}
+
+/* To give style to Login Link in Navbar on Login Page  */
+#LoginActive{
+    color: white !important;
+}
+
+/* Outtermost Div styled to bring the Login form towards the Center of the Page (y-axis) */
+#LoginContainer{
+    margin-top: 100px;
+    padding: 25px;
+}
+
+/* To give bg color and other styling to Login Form  */
+.form-login {
+    background-color: #EDEDED;
+    height: 380px;
+    width: 400px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 15px;
+    border-color:#d2d2d2;
+    border-width: 5px;
+    box-shadow:0 1px 0 #cfcfcf;
+}
+
+/* To bring Login Form towards the center on x-axis  */
+#LoginRow{
+    margin-left: 31%;
+}
+
+/* To style Welcome Back text  */
+#LoginHeading{
+    border:0 solid #fff; 
+    border-bottom-width:1px;
+    padding-bottom:10px;
+    text-align: center;
+    /* text-shadow: black !important;  */
+    font-family: 'Kaushan Script', cursive;
+    font-weight: 500;
+    /* color: red; */
+    margin-bottom: 20px;
+}
+
+/* To create a Gap between Login button and Don't have an Account para  */
+.Loginpara{
+    margin-top: 1.4rem;
+}
+
+
+
+
+
+/* Sign-up Page  */
+
+/* To give the Reddish color to Navbar and Whole Section  */
+#titleSignup{
+    background-color: #d82843;
+    height: 850px;
+}
+
+#titleSignup .container-fluid{
+    padding: 3% 10% 3%;
+}
+
+/* To give style to Signup Link in Navbar on Signup Page  */
+#SignupActive{
+    color: white !important;
+}
+
+/* Outtermost Div styled to bring the Signup form towards the Center of the Page (y-axis) */
+#SignupContainer{
+    margin-top: 80px;
+    padding: 25px;
+}
+
+#SignupHeading{
+    border:0 solid #fff; 
+    border-bottom-width:1px;
+    padding-bottom:10px;
+    text-align: center;
+    /* text-shadow: black !important;  */
+    font-family: 'Kaushan Script', cursive;
+    font-weight: 500;
+    /* color: red; */
+    margin-bottom: 20px;
+}
+
+
+/* To give bg color and other styling to Signup Form  */
+.form-signup {
+    background-color: #EDEDED;
+    height: 500px;
+    width: 400px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 15px;
+    border-color:#d2d2d2;
+    border-width: 5px;
+    box-shadow:0 1px 0 #cfcfcf;
+}
+
+
+
+
+
+
+
+
+/* After Login Landing Page  */
+
+.afterLogin{
+    padding: 3% 6% 4%;
+}
+
+/* Second Section  */
+
+.NoticeSection{
+    background-color: #d82843;
+    margin: 0%;
+}
+
+.NoticeContainer{
+    max-width: 955px;
+    background-color: white;
+    border: 2px solid black;
+    margin: auto;
+    height: 60vh;
+    padding: 33px;
+    overflow-y: auto;
+    border-radius: 13px;
+}
+
+.NoticeHeading{
+    color: white;
+    margin-bottom: 20px;
+}
+
+
+/* Third Section      Footer  */
+#footerafterLogin{
+    background-color: #d82843;
+    padding-top: 80px;
+}
+
+
+
+
+
+/* Chat Page  */
+#chatActive{
+    color: white !important;
+}
+
+/* to give less bottom padding on the chat page  */
+.chatnav{
+    padding: 3% 6% 3%;
+}
+
+/* to give color in the middle section  */
+.outterchatcontainer{
+    background-color: #d82843;
+}
+
+/* Main container inside which the messages are being send and received  */
+.Chatcontainer{
+    max-width: 950px;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: auto;
+    height: 60vh;
+    padding: 30px;
+    overflow-y: auto;
+}
+
+/* to give general styling to the block inside which message is present  */
+.message{
+    background-color: rgb(180, 177, 177);
+    width: 30%;
+    padding: 10px;
+    margin: 17px 12px;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-size: smaller;
+    font-weight: 800;
+    text-align: left;
+    line-height: 1.3;
+}
+
+/* to present the messages of the others on the left side  */
+.left{
+    float: left;
+    clear: both;
+}
+
+/* to present our messages on the right side  */
+.right{
+    float: right;
+    clear: both;
+}
+
+/* to give space between chat container and message input area and to fill the color in the background  */
+.send{
+    padding-top: 23px;
+    background-color: #d82843;
+}
+
+/* to center and resize the message input area  */
+#send-container{
+    display: block;
+    margin: auto;
+    text-align: center;
+    max-width: 985px;
+    width: 100%;
+}
+
+/* to increase the width of message input area  */
+#messageInp{
+    width: 82%;
+    border: 2px solid black;
+    border-radius: 6px;
+    height: 34px;
+}
+
+/* to style the Send button  */
+.btn{
+    cursor: pointer;
+    border: 2px solid black;
+    border-radius: 6px;
+    height: 34px;
+    background-color: #b4b1b1;
+    padding-top: 3px;
+}
